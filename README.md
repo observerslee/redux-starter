@@ -5,6 +5,7 @@
   - sass, css, file-loaders with extract-text-webpack-plugin
   - DirectoryNamed resolver plugin
   - hot module replacement
+  - sass, css with react-css-modules
 - jest 0.19
   - enzyme
 - eslint
