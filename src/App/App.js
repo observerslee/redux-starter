@@ -1,13 +1,15 @@
 import React from "react";
 
-import Style from "./styles/App.scss";
+import CSSModules from 'react-css-modules';
+
+import styles from "./styles/App.scss";
 import logo from "./assets/react-logo.png";
 
-export default class App extends React.Component {
+class App extends React.Component {
 
   render() {
     return (
-      <div className={Style.App}>
+      <div styleName='App' className='global-style'>
       	<img src={logo} />
         Welcome to React-on!
       </div>
@@ -15,3 +17,5 @@ export default class App extends React.Component {
   }
 
 }
+
+export default CSSModules(App, styles);
