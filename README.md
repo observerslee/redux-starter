@@ -6,7 +6,7 @@
   - DirectoryNamed resolver plugin
   - hot module replacement
   - sass, css with react-css-modules
-- jest 0.19
+- jest
   - enzyme
 - eslint
   - eslint react rules
