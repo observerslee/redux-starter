@@ -10,3 +10,5 @@
   - enzyme
 - eslint
   - eslint react rules
+- lodash 4.x.x
+
